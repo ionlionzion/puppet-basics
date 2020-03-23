@@ -6,7 +6,7 @@ node 'master.puppet.vm' {
   
   file { '/root/README':
     ensure => file,
-    content => "hello ${fqdn} running ${os.family}",
+    content => "hello ${fqdn}",
   }
 }
 
